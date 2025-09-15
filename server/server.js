@@ -12,6 +12,7 @@ const port = process.env.PORT || 3000;  // ✅ important for Render
 // Connect to DB
 connectDB();
 
+
 // Middleware
 app.use(express.json());
 app.use(cors());

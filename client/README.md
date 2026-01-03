@@ -1,12 +1,67 @@
-# React + Vite
+# 🎬 Movie Streaming Platform (React App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Movie Streaming / Entertainment Web Application** built using **React.js**, featuring a clean UI, reusable components, media playback, and an admin section.  
+The project is structured for scalability with a clear separation of UI sections and logic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎥 Movie cards & featured sections
+- ▶️ Trailer & video playback
+- 📅 Date selector component
+- 🧭 Responsive navigation bar
+- ⏳ Loading states & UI feedback
+- 🎨 Modern UI with reusable components
+- 🔐 Admin panel (future-ready)
+- ⚡ Component-based React architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** CSS / modern UI effects
+- **Media:** React Player
+- **Architecture:** Modular, reusable components
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🧩 Component Overview
+
+### 🧭 Navbar
+- Navigation links
+- Responsive layout
+
+### 🎬 Hero & Featured Sections
+- Highlights trending or featured movies
+- Visually engaging UI
+
+### 🎞️ MovieCard
+- Displays movie thumbnail & details
+- Reusable across sections
+
+### ▶️ ReactPlayer
+- Embedded video/trailer playback
+
+### ⏳ Loading
+- Handles loading states for better UX
+
+### 🛠 Admin
+- Reserved for admin-level functionality
+- Scalable for future backend integration
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Geeta-0410/Quickshoww.git
+
+

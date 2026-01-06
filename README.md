@@ -87,6 +87,26 @@ kings.png)
 
 ## 📁 Project Structure
 
+client/
+│── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── admin/
+│ │ ├── Navbar.jsx
+│ │ ├── MovieCard.jsx
+│ │ ├── HeroSection.jsx
+│ │ └── Footer.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Movies.jsx
+│ │ ├── MovieDetails.jsx
+│ │ ├── MyBooking.jsx
+│ │ └── Favourite.jsx
+│ ├── lib/
+│ │ ├── dateFormat.js
+│ │ ├── timeFormat.js
+│ │ └── KConverter.js
+│ └── App.jsx
 
 
 ---
@@ -105,4 +125,5 @@ npm start
 http://localhost:3000
 
 REACT_APP_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
+
 
